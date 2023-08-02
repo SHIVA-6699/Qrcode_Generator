@@ -1,0 +1,19 @@
+<Mygridlayout>
+    user:user
+    passs:passs
+    GridLayout:
+        size:root.widhth,root.height
+        cols:1
+        GridLayout:
+            cols:2
+            Label:
+                text:'USER'
+            TextInput:
+                multiline:True
+                id:user
+            TextInput:
+                multiline:True
+                id:passs
+         Button:
+            text:'submit'
+            on_press:root.press()
